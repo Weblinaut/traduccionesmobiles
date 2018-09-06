@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import {Translate} from "react-localize-redux";
+import {Link} from "react-router-dom";
 
 
 class Footer extends Component {
@@ -8,7 +9,7 @@ class Footer extends Component {
             <footer className="footer-section text-center">
                 <div className="container">
                     <h2 className="section-title mb-5"><Translate id='services.workTogether'/></h2>
-                    <a href="" className="site-btn">Get in touch</a>
+                    <button className="site-btn"><Link to="/contact">Get in touch</Link></button>
                     <div className="social-links">
                         <a href=""><span className="fa fa-pinterest"></span></a>
                         <a href=""><span className="fa fa-linkedin"></span></a>
@@ -18,7 +19,7 @@ class Footer extends Component {
                     </div>
                     <br/>
                     <div>
-                        <span>Hours of Operation: Monday - Sunday 6am - 10pm</span><br/>
+                        <span><Translate id='services.hoursOfOperation'/>: Monday - Sunday 6am - 10pm</span><br/>
                         <br/>
                         <span><i className="fa fa-phone"></i> (801)835-6805</span>
                     </div>

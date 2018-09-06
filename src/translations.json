@@ -67,6 +67,10 @@
     "workTogether" : [
       "Let's work together",
       "Vamos a trabajar juntos"
+    ],
+    "hoursOfOperation" : [
+      "Hours of Operation",
+      "Horas de operación"
     ]
 
 },
