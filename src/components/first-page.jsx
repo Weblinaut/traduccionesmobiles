@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import ServiceList from './servicelist'
+import {Translate} from "react-localize-redux";
 
 
 
@@ -10,7 +11,7 @@ export default class FirstPage extends Component {
                 <div className="container text-center">
                     <div className="row">
                         <div className="col-xl-10 offset-xl-1">
-                            <h2 className="section-title">I offer <span>Certified Spanish Translation Services</span>, with 20+ years of experience</h2>
+                            <h2 className="section-title"><Translate id='services.title1'/><span><Translate id='services.title2'/></span>, <Translate id='services.title3'/></h2>
                         </div>
                     </div>
                 </div>
