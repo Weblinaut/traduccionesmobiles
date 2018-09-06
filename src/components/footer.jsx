@@ -15,6 +15,13 @@ class Footer extends Component {
                         <a href=""><span className="fa fa-facebook"></span></a>
                         <a href=""><span className="fa fa-twitter"></span></a>
                     </div>
+                    <br/>
+                    <div>
+                        <span>Hours of Operation: Monday - Sunday 6am - 10pm</span><br/>
+                        <br/>
+                        <span><i className="fa fa-phone"></i> (801)835-6805</span>
+                    </div>
+                    <br/>
                     <div className="copyright">
                         Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved
                     </div>

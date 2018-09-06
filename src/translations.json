@@ -5,10 +5,49 @@
   },
 
   "services": {
-    "interpreting": [
+    "immigration": [
   "Interpreting with immigration appointments",
-  "lnterprete citas con inmigracion"
-]
+  "lnterprete citas con inmigracion"],
+    "consulates" : [
+      "Interpreting at consulates",
+      "Citas con el consulado"],
+    "travelPermission" : [
+      "Permission to travel with notarization",
+      "Permiso de viaje notariado"
+    ],
+    "documentTranslation" : [
+      "Translation of documents",
+      "Traduccion de documentos"
+    ],
+    "lettersWritten" : [
+      "Letters in English/Spanish",
+      "Cartas en Ingles/Espanol"
+    ],
+    "passportDocuments" : [
+      "Documents for requesting U S passport",
+      "Documentos para pasaporte"
+    ],
+    "workApplications" : [
+      "Work Applications",
+      "Documentos para solicitar trabajo"
+    ],
+    "schoolInterpretation" : [
+      "Interpreting at school",
+      "Citas con maestros"
+    ],
+    "doctorInterpretation" : [
+      "Interpreting with Clinics/Doctors",
+      "Citas con doctores"
+    ],
+    "jobInterviews" : [
+      "Interpreting at job interviews",
+      "Citas en entrevistas de trabajo"
+    ],
+    "muchMore" : [
+      "MUCH MORE",
+      "y mucho más"
+    ]
+
 },
   "langSwitch": ["Se Habla Espanol", "Click Here For English"]
 }

@@ -13,26 +13,23 @@ class ServiceList extends Component {
                         <div className="row">
                             <div className="col-md-6">
                                 <ul>
-                                    <li><Translate id='services.interpreting'/></li>
-                                    <li>Interpreting at consulates</li>
-                                    <li>Permission to travel with notarization</li>
-                                    <li>Translation of documents</li>
-                                    <li>Letters in English/Spanish</li>
-                                    <li>Divorce documents petitioner</li>
-                                    <li>Divorce documents respondent </li>
-                                    <li>Child custody documents</li>
+                                    <li><Translate id='services.immigration'/></li>
+                                    <li><Translate id='services.consulates'/></li>
+                                    <li><Translate id='services.travelPermission'/></li>
+                                    <li><Translate id='services.documentTranslation'/></li>
+                                    <li><Translate id='services.lettersWritten'/></li>
+
                                 </ul>
                             </div>
                             <div className="col-md-6">
                                 <ul>
-                                    <li>Documents for requesting U S passport</li>
-                                    <li>Work Applications</li>
-                                    <li>Interpreting at school</li>
-                                    <li>Interpreting with Clinics/Doctors</li>
-                                    <li>Interpreting at job interviews</li>
-                                    <li>Client transportation</li>
-                                    <li>We can help you buy or sale a house</li>
-                                    <li>MUCH MORE</li>
+                                    <li><Translate id='services.passportDocuments'/></li>
+                                    <li><Translate id='services.workApplications'/></li>
+                                    <li><Translate id='services.schoolInterpretation'/></li>
+                                    <li><Translate id='services.doctorInterpretation'/></li>
+                                    <li><Translate id='services.jobInterviews'/></li>
+                                    <li><Translate id='services.muchMore'/></li>
+
                                 </ul>
                             </div>
                         </div>

@@ -7,6 +7,7 @@ import Header from './header'
 import Footer from "./footer"
 import FirstPage from './first-page'
 import About from './about'
+import Contact from './contact'
 
 
 
@@ -33,6 +34,7 @@ class Main extends React.Component {
                     <Header />
                     <Route path="/home" component={FirstPage} />
                     <Route path="/about" component={About} />
+                    <Route path="/contact" component={Contact} />
                     <Route exact path="/" component={FirstPage} />
 
                     <Footer />

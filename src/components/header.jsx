@@ -32,7 +32,7 @@ class Header extends Component {
                                 <ul>
                                     <li><Link to="/home">Home</Link></li>
                                     <li><Link to="/about">About</Link></li>
-                                    <li><Link to="/about">Contact</Link></li>
+                                    <li><Link to="/contact">Contact</Link></li>
                                 </ul>
                             </nav>
                         </div>
@@ -49,3 +49,4 @@ class Header extends Component {
 export default withLocalize(Header)
 
 //navigator.language.split("-")[0]
+//url lang
