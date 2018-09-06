@@ -1,8 +1,14 @@
-import React from "react";
+import React, { Component } from 'react';
+import { Link } from 'react-router-dom'
+import { Translate } from "react-localize-redux";
+import { withLocalize } from "react-localize-redux";
+
+
+
 
 class Header extends Component {
     render() {
-        return (<div>
+        return (
             <header className="header-section">
                 <div className="container">
                     <div className="row">
@@ -12,12 +18,21 @@ class Header extends Component {
                             </div>
                         </div>
                         <div className="col-lg-8 col-md-9">
-                            <a href="" className="site-btn header-btn">Contact Us</a>
+                            <button className="site-btn header-btn" onClick={()=> {
+                                console.log(this.props.activeLanguage)
+                                if (this.props.activeLanguage.code === "en") {
+                                    localStorage.setItem("defaultLanguage", "es")
+                                    this.props.setActiveLanguage("es")
+                                    return
+                                }
+                                localStorage.setItem("defaultLanguage", "en")
+                                this.props.setActiveLanguage("en")
+                            }}><Translate id="langSwitch" /></button>
                             <nav className="main-menu">
                                 <ul>
-                                    <li><a href="index.html">Home</a></li>
-                                    <li><a href="about.html">About</a></li>
-                                    <li><a href="contact.html">Contact</a></li>
+                                    <li><Link to="/home">Home</Link></li>
+                                    <li><Link to="/about">About</Link></li>
+                                    <li><Link to="/about">Contact</Link></li>
                                 </ul>
                             </nav>
                         </div>
@@ -27,5 +42,10 @@ class Header extends Component {
                     <i className="fa fa-bars"></i>
                 </div>
             </header>
-                 </div>
+                 )
+    }
 }
+
+export default withLocalize(Header)
+
+//navigator.language.split("-")[0]

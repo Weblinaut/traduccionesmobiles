@@ -1,0 +1,14 @@
+{
+  "welcome": {
+    "greeting": ["Hello", "Hola"],
+    "farewell": ["Goodbye", "Adiós"]
+  },
+
+  "services": {
+    "interpreting": [
+  "Interpreting with immigration appointments",
+  "lnterprete citas con inmigracion"
+]
+},
+  "langSwitch": ["Se Habla Espanol", "Click Here For English"]
+}
