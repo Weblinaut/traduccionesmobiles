@@ -48,5 +48,3 @@ class Header extends Component {
 
 export default withLocalize(Header)
 
-//navigator.language.split("-")[0]
-//url lang

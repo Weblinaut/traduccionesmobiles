@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import { Translate } from "react-localize-redux";
+
 
 
 export default class Contact extends Component {
@@ -19,10 +21,8 @@ export default class Contact extends Component {
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-6 offset-lg-3 contect-tect">
-                            <h2>So, let’s talk</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sit amet pharetra nisl.
-                                Vestibulum sollicitudin leo non purus vestibulum placerat. Curabitur ac erat
-                                sollicitudin, blandit quam vitae.</p>
+                            <h2><Translate id='services.startNow'/></h2>
+                            <p><Translate id='services.contactUs'/></p>
                         </div>
                     </div>
                     <form method="post" action="send_mail.php" encType="text/plain" className="contact-form">

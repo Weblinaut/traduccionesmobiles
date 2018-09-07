@@ -3,6 +3,27 @@
     "greeting": ["Hello", "Hola"],
     "farewell": ["Goodbye", "Adiós"]
   },
+  "form" : {
+    "nameHolder" : [
+      "Name",
+      "Nombre"
+    ],
+    "subjectHolder" : [
+      "Subject",
+      "Tema"
+    ],
+    "hearAboutUs" : [
+      "How did you hear about us?",
+      "¿Como supiste de nosotros?"
+    ],
+    "sendButton" : [
+      "Send",
+      "Enviar"
+    ]
+
+
+
+  },
 
   "services": {
     "immigration": [
@@ -71,6 +92,14 @@
     "hoursOfOperation" : [
       "Hours of Operation",
       "Horas de operación"
+    ],
+    "contactUs" : [
+      "For the most authentic certified translations and translation fees in the area, please contact us for a free quote",
+      "Para obtener las traducciones certificadas más auténticas y las tarifas de traducción en el área, contáctenos para obtener un presupuesto gratuito"
+    ],
+    "startNow" : [
+      "Let's get started now",
+      "Comencemos ahora"
     ]
 
 },
