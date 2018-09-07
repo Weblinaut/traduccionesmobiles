@@ -9,7 +9,7 @@ class Footer extends Component {
             <footer className="footer-section text-center">
                 <div className="container">
                     <h2 className="section-title mb-5"><Translate id='services.workTogether'/></h2>
-                    <button className="site-btn"><Link to="/contact">Get in touch</Link></button>
+                    <button className="site-btn"><Link class="site-btn" to="/contact">Get in touch</Link></button>
                     <div className="social-links">
                         <a href=""><span className="fa fa-pinterest"></span></a>
                         <a href=""><span className="fa fa-linkedin"></span></a>
