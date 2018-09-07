@@ -1,5 +1,5 @@
-import React, { Component } from 'react';
-import { BrowserRouter,Redirect ,Route, Link } from 'react-router-dom'
+import React from 'react';
+import { BrowserRouter,Route } from 'react-router-dom'
 import { withLocalize } from "react-localize-redux";
 import globalTranslations from "../translations.json";
 import { renderToStaticMarkup } from "react-dom/server";

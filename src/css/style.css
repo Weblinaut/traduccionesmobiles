@@ -32,7 +32,6 @@ button:focus,
 textarea:focus {
   outline: none;
 }
-a:link, a:hover, a:active { color: inherit; }
 
 a:hover,
 a:focus {
