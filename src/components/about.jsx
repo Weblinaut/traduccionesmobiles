@@ -31,7 +31,7 @@ export default class About extends Component {
                         </div>
                         <div className="col-lg-4 offset-lg-1">
                             <figure className="pic-frame">
-                                <img src="/img/beccaresize.jpg" alt=""/>
+                                <img src="/public/img/beccaresize.jpg" alt=""/>
                             </figure>
                         </div>
                     </div>
