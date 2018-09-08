@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import beccaResize from './img/beccaresize.jpg'
+import beccaResize from './img/beccaresize.jpg';
+import { Translate } from "react-localize-redux";
 
 
 export default class About extends Component {

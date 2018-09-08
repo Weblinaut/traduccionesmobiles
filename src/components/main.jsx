@@ -14,6 +14,7 @@ import Contact from './contact'
 class Main extends React.Component {
     constructor(props) {
         super(props);
+        let defaultLanguage = localStorage.getItem("defaultLanguage") || navigator.language.split("-")[0]
 
         this.props.initialize({
             languages: [
@@ -21,7 +22,7 @@ class Main extends React.Component {
                 { name: "Spanish", code: "es" }
             ],
             translation: globalTranslations,
-            options: { renderToStaticMarkup, defaultLanguage: localStorage.getItem("defaultLanguage") || "es" }
+            options: { renderToStaticMarkup, defaultLanguage }
 
         });
     }

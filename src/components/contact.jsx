@@ -25,28 +25,30 @@ export default class Contact extends Component {
                             <p><Translate id='services.contactUs'/></p>
                         </div>
                     </div>
-                    <form method="post" action="send_mail.php" encType="text/plain" className="contact-form">
-                        <div className="row">
-                            <div className="col-md-6">
-                                <input type="text" name="name" placeholder="Name" />
-                            </div>
-                            <div className="col-md-6">
-                                <input type="text" name="email" placeholder="E-mail" />
-                            </div>
-                            <div className="col-md-6">
-                                <input type="text" name="subject" placeholder="Subject" />
-                            </div>
-                            <div className="col-md-6">
-                                <input type="text" name="comment" placeholder="How did you hear about us?" />
-                            </div>
-                            <div className="col-md-12">
-                                <textarea placeholder="Message"></textarea>
-                            </div>
-                        </div>
-                        <div className="text-center">
-                            <button className="site-btn">Send</button>
-                        </div>
-                    </form>
+                   <div className="box">
+                       <form method="post" action="send_mail.php" encType="text/plain" className="contact-form">
+                           <div className="row">
+                               <div className="col-md-6">
+                                   <input type="text" name="name" placeholder="Name" />
+                               </div>
+                               <div className="col-md-6">
+                                   <input type="text" name="email" placeholder="E-mail" />
+                               </div>
+                               <div className="col-md-6">
+                                   <input type="text" name="subject" placeholder="Subject" />
+                               </div>
+                               <div className="col-md-6">
+                                   <input type="text" name="comment" placeholder="How did you hear about us?" />
+                               </div>
+                               <div className="col-md-12">
+                                   <textarea placeholder="Message"></textarea>
+                               </div>
+                           </div>
+                           <div className="text-center">
+                               <button className="site-btn">Send</button>
+                           </div>
+                       </form>
+                   </div>
 
 
                 </div>

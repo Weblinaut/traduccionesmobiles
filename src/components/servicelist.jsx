@@ -4,12 +4,11 @@ import { Translate } from "react-localize-redux";
 class ServiceList extends Component {
     render() {
         return (
-            <div className="container">
+            <div className="container m-100">
+                <hr/>
                 <div className="row align-content-center">
                     <div className="col-xl-10 offset-xl-1">
                         <h3 className=""><Translate id='services.examples'/>:</h3>
-                        <br/>
-                        <br/>
                         <div className="row">
                             <div className="col-md-6">
                                 <ul>
@@ -35,7 +34,7 @@ class ServiceList extends Component {
                         </div>
                     </div>
                 </div>
-
+                <hr/>
             </div>
         )
     }
