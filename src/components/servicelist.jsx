@@ -9,8 +9,9 @@ class ServiceList extends Component {
                 <div className="row align-content-center">
                     <div className="col-xl-10 offset-xl-1">
                         <h3 className="text-center"><Translate id='services.examples'/>:</h3>
+                        <br/>
                         <div className="row">
-                            <div className="col-md-6">
+                            <div className="col-md-6 list-line">
                                 <ul>
                                     <li><Translate id='services.immigration'/></li>
                                     <li><Translate id='services.consulates'/></li>

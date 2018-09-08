@@ -95,6 +95,9 @@ ol {
 .m-100 {
   margin: 2.5rem 0;
 }
+.list-inline {
+  justify-content: center;
+}
 
 
 

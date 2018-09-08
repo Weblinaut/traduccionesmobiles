@@ -19,13 +19,11 @@ export default class Contact extends Component {
 
             <section className="page-section">
                 <div className="container">
-                    <div className="row">
-                        <div className="col-lg-6 offset-lg-3 contect-tect">
-                            <h2><Translate id='services.startNow'/></h2>
-                            <p><Translate id='services.contactUs'/></p>
-                        </div>
-                    </div>
                    <div className="box">
+                       <div className="col-lg-6 offset-lg-3 contect-tect">
+                           <h2><Translate id='services.startNow'/></h2>
+                           <p><Translate id='services.contactUs'/></p>
+                       </div>
                        <form action="https://getsimpleform.com/messages?form_api_token=7193546e3e6b226a253b490fea54f5a8" method="post" encType="text/plain" className="contact-form">
                            <div className="row">
                                <div className="col-md-6">

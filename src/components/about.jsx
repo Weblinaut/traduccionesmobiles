@@ -5,7 +5,7 @@ import { Translate } from "react-localize-redux";
 
 export default class About extends Component {
     render() {
-        return (<div>
+        return (<div className="box">
             <section className="intro-section">
                 <div className="container text-center">
                     <div className="row">
