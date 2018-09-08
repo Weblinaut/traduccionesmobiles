@@ -8,7 +8,7 @@ class ServiceList extends Component {
                 <hr/>
                 <div className="row align-content-center">
                     <div className="col-xl-10 offset-xl-1">
-                        <h3 className=""><Translate id='services.examples'/>:</h3>
+                        <h3 className="text-center"><Translate id='services.examples'/>:</h3>
                         <div className="row">
                             <div className="col-md-6">
                                 <ul>
