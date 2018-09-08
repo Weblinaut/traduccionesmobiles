@@ -26,7 +26,7 @@ export default class Contact extends Component {
                         </div>
                     </div>
                    <div className="box">
-                       <form method="post" action="send_mail.php" encType="text/plain" className="contact-form">
+                       <form action="https://getsimpleform.com/messages?form_api_token=7193546e3e6b226a253b490fea54f5a8" method="post" encType="text/plain" className="contact-form">
                            <div className="row">
                                <div className="col-md-6">
                                    <input type="text" name="name" placeholder="Name" />
