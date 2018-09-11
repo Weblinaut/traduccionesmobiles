@@ -45,10 +45,6 @@ ol {
   padding: 0;
   margin: 0;
 }
-.service-list {
-  display: inline-block;
-
-}
 
 /*------------------------
   Helper css
@@ -493,21 +489,17 @@ ol {
 --------------------------*/
 .footer-contact {
   line-height: 2;
-  color: #f7fa14;
-  text-shadow: 2px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
 }
 
 .footer-section {
   padding: 1rem 0;
-  background: url('../components/img/slcdowntown.jpg') no-repeat;
-  background-size: 100%;
+  background-color: white;
   box-shadow: 0 15px 50px rgba(0, 0, 0, .12);
 }
 
 .footer-section .copyright {
   font-size: 12px;
-  color: #f7fa14;
-  text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+  color: #979797;
 }
 
 .social-links {
@@ -516,8 +508,7 @@ ol {
 }
 
 .social-links a {
-  color: #f7fa14;
-  text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+  color: #979797;
   font-size: 15px;
   margin-right: 30px;
 }
