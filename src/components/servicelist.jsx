@@ -11,7 +11,7 @@ class ServiceList extends Component {
                         <h3 className="text-center"><Translate id='services.examples'/>:</h3>
                         <br/>
                         <div className="row">
-                            <div className="col-md-6 list-line">
+                            <div className="col-md-6">
                                 <ul>
                                     <li><Translate id='services.immigration'/></li>
                                     <li><Translate id='services.consulates'/></li>
