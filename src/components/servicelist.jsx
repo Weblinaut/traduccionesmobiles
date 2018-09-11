@@ -6,7 +6,7 @@ class ServiceList extends Component {
         return (
             <div className="container m-100">
                 <hr/>
-                <div className="row align-content-center">
+                <div className="row">
                     <div className="col-xl-10 offset-xl-1">
                         <h3 className="text-center"><Translate id='services.examples'/>:</h3>
                         <br/>
