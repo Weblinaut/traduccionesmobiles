@@ -4,7 +4,7 @@ import { Translate } from "react-localize-redux";
 class ServiceList extends Component {
     render() {
         return (
-            <div className="container m-100">
+            <div className="container">
                 <hr/>
                 <div className="row">
                     <div className="col-xl-10 offset-xl-1">
