@@ -14,7 +14,8 @@
     "react-forecast": "0.0.7",
     "react-router-dom": "^4.3.1",
     "react-scripts": "^2.1.5",
-    "redux": "^4.0.1"
+    "redux": "^4.0.1",
+    "react-localize-redux": "^3.5.2"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -23,6 +24,6 @@
     "eject": "react-scripts eject"
   },
   "devDependencies": {
-    "react-localize-redux": "^3.3.2"
+    "react-localize-redux": "^3.5.2"
   }
 }
